@@ -9,6 +9,7 @@
   height: 9.6rem;
   background-color: rgb(226, 212, 212);
   padding: 0 4.8rem;
+  position: relative;
 }
 
 .logo {
@@ -23,7 +24,7 @@
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 3.2rem;
+  gap: 4.8rem;
 }
 
 .nav-link:link,
@@ -52,6 +53,22 @@
 .nav-link.nav-cta:hover,
 .nav-link.nav-cta:active {
   background-color: rgb(192, 128, 45);
+}
+.btn-mobile-nav {
+  display: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.icon-mobile-nav {
+  height: 4.6rem;
+  width: 4.6rem;
+  color: #333;
+}
+
+.icon-mobile-nav[name='close-outline'] {
+  display: none;
 }
 /************/
 /*section hero*/
@@ -190,7 +207,7 @@
 
 .step-img-box::before,
 .step-img-box::after {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   top: 50%;
@@ -298,6 +315,7 @@
   display: flex;
   align-items: center;
   gap: 1.6rem;
+  line-height: 1.2;
 }
 
 .list-icon {
@@ -406,7 +424,7 @@
 
 .pricing-plan--complete::after {
   position: absolute;
-  content: "best value";
+  content: 'best value';
   text-transform: uppercase;
   font-weight: 700;
   font-size: 1.4rem;
