@@ -67,7 +67,7 @@
   color: #333;
 }
 
-.icon-mobile-nav[name='close-outline'] {
+.icon-mobile-nav[name="close-outline"] {
   display: none;
 }
 /************/
@@ -207,7 +207,7 @@
 
 .step-img-box::before,
 .step-img-box::after {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   top: 50%;
@@ -286,7 +286,7 @@
 }
 
 .tag--paleo {
-  background-color: rgb(155, 189, 61);
+  background-color: rgb(222, 233, 77);
 }
 .meal-tags {
   margin-bottom: 1.2rem;
@@ -424,7 +424,7 @@
 
 .pricing-plan--complete::after {
   position: absolute;
-  content: 'best value';
+  content: "best value";
   text-transform: uppercase;
   font-weight: 700;
   font-size: 1.4rem;
@@ -581,6 +581,7 @@
 /**************************/
 
 .footer {
+  margin-top: 6rem;
   padding: 13rem 0;
   border-top: 1px solid rgb(235, 231, 231);
 }
@@ -649,4 +650,17 @@
 
 .address {
   margin-bottom: 2.4rem;
+}
+
+.sticky .header {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(241, 238, 235, 0.95);
+  z-index: 999;
+  height: 8rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.05);
 }
